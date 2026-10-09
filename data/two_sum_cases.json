@@ -1,0 +1,57 @@
+{
+  "source": "README examples plus one large-value case from the stated constraints",
+  "cases": [
+    {
+      "id": "example-1",
+      "nums": [
+        2,
+        7,
+        11,
+        15
+      ],
+      "target": 9,
+      "expected": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "example-2",
+      "nums": [
+        3,
+        2,
+        4
+      ],
+      "target": 6,
+      "expected": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "example-3",
+      "nums": [
+        3,
+        3
+      ],
+      "target": 6,
+      "expected": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "constraints-boundary",
+      "nums": [
+        -1000000000,
+        1000000000
+      ],
+      "target": 0,
+      "expected": [
+        0,
+        1
+      ],
+      "note": "smallest allowed length with both extreme values"
+    }
+  ]
+}

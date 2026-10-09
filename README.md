@@ -29,3 +29,12 @@ Constraints:
 -109 <= nums[i] <= 109
 -109 <= target <= 109
 Only one valid answer exists.
+
+## Python implementation
+
+`taskee/two_sum.py` exposes `two_sum(nums, target)`, which returns the two indices whose values add up to
+`target`. The datasets live in `data/two_sum_cases.json` and are consumed by `tests/test_two_sum.py`.
+
+```sh
+python3 -m unittest discover -s tests -t . -v
+```
